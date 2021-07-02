@@ -1,0 +1,100 @@
+body.darkMode {
+    background-color: #37383c;
+    color: #fff;
+  }
+  
+  body.darkMode .header_container {
+    background-color: #37383c;
+    border: none;
+  }
+  
+  body.darkMode .navbar_list {
+    background-color: #5b34e9;
+  }
+  
+  body.darkMode .navbar_link {
+    color: white;
+  }
+  
+  body.darkMode .navbar_search_container {
+    border: 1px solid #fff;
+  }
+  
+  body.darkMode .navbar_search_container .navbarSearch_input {
+    color: #9cafc3;
+    background-color: transparent;
+  }
+  
+  body.darkMode .search_container {
+    border: 1px solid #fff;
+  }
+  
+  body.darkMode .search_container .search_input {
+    background-color: transparent;
+  }
+  
+  body.darkMode .SearchSuggestionsContainer_container {
+    border: 1px solid #fff;
+  }
+  
+  body.darkMode .button {
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  body.darkMode .button:hover {
+    background-color: #fff;
+    color: #37383c;
+  }
+  
+  body.darkMode .trending {
+    background-color: #222326;
+  }
+  
+  body.darkMode .trending_paragraph {
+    color: #fff;
+  }
+  
+  body.darkMode .footer_paragraph {
+    color: #fff;
+  }
+  
+  body.darkMode .footer .socialmedia .socialmedia_item:hover {
+    color: #fff;
+  }
+  
+  body.darkMode .createMyGif_recordingZone {
+    border: 1px solid #fff;
+  }
+  
+  body.darkMode .createMyGif_text {
+    color: #fff;
+  }
+  
+  body.darkMode .createMyGif .pagination .step {
+    border: 1px solid #fff;
+  }
+  
+  body.darkMode .maximizedGif {
+    background-color: #37383c;
+  }
+  
+  body.darkMode .close-btn {
+    background: url("/assets/close-modo-noct.svg") center no-repeat;
+  }
+  
+  body.darkMode .gif_info {
+    color: #fff;
+  }
+  
+  body.darkMode .footer .socialmedia .socialmedia_item:hover {
+    color: #5b34e9;
+    width: 2.5rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+  
+    body.darkMode .navbar_list {
+      background-color: transparent;
+    }
+  }
